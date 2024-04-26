@@ -1,0 +1,263 @@
+<index2 class="html"></index2>
+
+
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title> Portfolio Website Hemalatha Sadineni </title>
+        <style>
+            body {
+                font-family:Arial;
+                background-color: aquamarine;
+                margin:0;
+                padding:0;
+                
+            }
+
+            .container {
+                display:grid;
+                grid-template-rows: 0.2fr 0.6fr 0.6fr 0.6fr 0.6fr 0,6fr 0.2fr;
+                grid-template-areas:
+                    "nav"
+                    "main"
+                    "footer";
+                    min-height:100vh;
+             
+
+            }
+
+
+            
+            
+                
+            
+
+            nav {
+                grid-area: nav;
+                background-color:coral;
+                padding: 20px;
+                text-align:right ;
+            }
+
+            main{
+                 grid-area: main ;
+                 background-color:pink;
+                color:green;
+                padding:40px;
+                text-align: center;
+                margin: 0%;
+                
+                
+    
+
+}
+
+#about {
+    background-color:darkgreen;
+    color: black;
+    padding:40px;
+
+}
+
+
+
+
+#education {
+    background-color:hotpink;
+    color:grey;
+    padding:40px;
+}
+
+#blogs {
+    background-color: orange;
+    color:white;
+    padding:30px;
+}
+
+#projects {
+    background-color: palegreen;
+    padding :50px;
+    display : inline-block;
+    text-align: center;
+    gap: 20px;
+}
+.project img {
+    width:100%;
+
+}
+
+
+
+
+
+
+            
+            
+            footer {
+                background-color:green;
+                color:black;
+                text-align: center;
+                padding:20px;
+            }
+
+            @media only screen and (max-width:80px){
+                .container {
+                    grid-template-columns: 1fr;
+                grid-template-rows: 0.2fr 1.3fr 1fr 1fr 1fr 1fr;
+                grid-template-areas: "nav" "main" "about" "education" "blogs" "projects";
+                }
+            }
+        </style>
+        </head>
+
+        <body> 
+            <div class="container">
+            <header>
+                
+                <nav >
+                <div class="topnav" id="mytopnav">
+                 
+                    <a class ="active"
+                    href="#home">Home</a>
+                    <a  href="#About">About</a>
+                    <a  href="#Education">Education</a>
+                    <a  href="#Blogs">Blogs</a>
+                    <a  href="#projects">projects</a>
+                    <a
+                    href="javascript:void(0);"
+                    class="icon"
+                    onclick="myfunction()">
+                    <i class="fa 
+                    fa-bars"></i>
+                    </a>
+                </div>
+                </nav>
+            
+            
+            </header>
+
+            <main id="Home">
+            
+                 <h2>Home </h2>
+                 <img src = "https://www.mycarpaltunnel.com/wp-content/uploads/2016/02/Woman-India-software-engineer-carpal-tunnel-working-on-computer.png" width="100%">
+                 <p>              
+                     HEMALATHA SADINENI. </p>
+                 </main>
+
+                 <section id="About" width="100%">
+                    <h2>About me </h2>
+
+                    <p>  During your career, you may need to write a document explaining your skills, abilities and qualifications.
+                         This document may be a cover letter, personal statement during the job interview process or self-appraisal for advancement opportunities. 
+                         Learning how to write about yourself accurately can increase your chances of receiving a job interview or promotion.  </p>
+
+                         <h> Skiils </h>
+                         <ul>
+                            <li>Leadership</li>
+                               <li> Teamwork skills</li>
+                               <li> Communication skills</li>
+                                <li>Problem-solving skills</li>
+                         </ul>
+                         
+
+
+                         </section>
+
+                        <section id="Education" width="100%">
+                            <h2>Education</h2>
+                            <ul>
+                                <li>Ohio State University, Columbus, OH
+
+                                    2005–2007 Completed 60 credits toward BA in Psychology
+                                    
+                                    
+                                <li>Cherryville High School, Cherryville, OH
+                                    
+                                    Graduated in 2005</li></li>
+                                <li>BA in English Literature in Progress
+
+                                    Sarah Lawrence College, Bronxville, NY</li>
+                            </ul>
+                            
+                 </section>
+                 
+                 <section id ="Blogs">
+                    
+                    <h2>Blogs </h2>
+                    <ul>
+                        <li> I have a very good experience in web design</li>
+                        <li>THe motive of my web design is to be better</li>
+                        <li> I have a very good experience in web design</li>
+                        <li>THe motive of my web design is to be better</li>
+                        <li> I have a very good experience in web design</li>
+                        <li>THe motive of my web design is to be better</li>
+                        <li> I have a very good experience in web design</li>
+                        <li>THe motive of my web design is to be better</li>
+
+
+                    </ul> 
+
+    
+                    
+                 </section>
+
+                 <section id ="Projects "
+                    style="display: flex;">
+                    <div>
+                    <h2> projects </h2>
+                    <img src="https://th.bing.com/th?id=OIP.IZdmY8eMeazf8rvV7mEwkwHaE8&w=305&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" >
+                    
+                    <p>ATTENDENCE TRACKING BY USING CLOUD </p>
+                    </div>
+
+                    <div>
+
+                    <img src="https://th.bing.com/th?id=OIP.EZeP9vSGOADD1MSdiDctcgHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2">
+                    <p>STRESS DETECTION USING MACHINE LEARNING</p>
+                    </div>
+                    <div>
+                        <img src="https://th.bing.com/th?id=OIP.5CztuplBGWWYSG9tbbktTAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2">
+                        <p>DATA MINING</p>
+                    </div>
+                    <div>
+                        <img src="https://th.bing.com/th?id=OIP.EZeP9vSGOADD1MSdiDctcgHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2">
+                        <p> APP DEVELOPMENT </p>
+                    </div>
+                    </section>
+
+                    
+
+                    <footer>
+
+                        <p> contact:hemlatha@gmail.com</p>
+
+                    </footer>
+                
+                
+
+
+                       
+
+                
+                    
+                  
+
+                
+
+
+
+                 
+                    
+                 </div>
+
+
+
+            
+
+
+        </body>
+    
+</html>
