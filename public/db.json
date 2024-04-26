@@ -1,0 +1,35 @@
+{"books": [{
+  "movie_showtime":"10:00 AM",
+  "movie_details": "HongKong",
+  "Location": "Hamden",
+  "Screening_rooms": 1
+
+},
+{
+  "movie_showtime":"1:00 PM",
+  "movie_details": "Maverick",
+  "Location": "Hartford",
+  "Screening_rooms": 3
+
+},
+{
+  "movie_showtime":"6:00 PM",
+  "movie_details": "Mission Impossible",
+  "Location": "Milford",
+  "Screening_rooms": 3
+
+},
+{
+  "movie_showtime":"6:00 PM",
+  "movie_details": "Einstein and the Bomb",
+  "Location": "Stamford",
+  "Screening_rooms": 6
+
+},
+{
+  "movie_showtime":"8:00 PM",
+  "movie_details": "Oppenheimer",
+  "Location": "Boston",
+  "Screening_rooms": 5
+
+}]}
